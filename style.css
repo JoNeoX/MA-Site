@@ -73,7 +73,7 @@ img.links {
     height: 25vw;
 }
 
-.esq {
+.esq  {
     float: left;
 
 }
@@ -81,6 +81,16 @@ img.links {
 .dir {
     float: right;
     
+}
+
+main > div > a > img {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+}
+
+main > div > a > img:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    transition: transform .2s;
 }
 
 .panoramica {
